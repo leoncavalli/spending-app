@@ -1,11 +1,11 @@
 import { useState } from "react";
 
-function Header({budget})
+function Header({budget,total})
 {
     return (
-        <>
+        <> 
             <div>
-                You have ${budget} to spend !
+                You have ${budget-total} to spend !
             </div>
         </>
     )
